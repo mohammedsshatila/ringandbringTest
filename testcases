@@ -1,0 +1,135 @@
+Ring and bring test cases: 
+
+Test case one : 
+Scenario Order from food category 
+given user is on ring and bring website
+and user clicks on food category button 
+and user clicks on search button
+and user types inside search text box tuna salad
+and user clicks on plus button 
+and user clicks plus inside the item popup 
+and user clicks on proceed button
+when user clicks or the cart button 
+and user validates that items are correct and the total is correct
+then 
+expected user must be directed to the home menu and order must turn to pending
+
+
+Test case two: 
+Scenario Order from drinks category
+given user is on ring and bring website
+and user clicks on drinks category button 
+and user clicks on search button
+and user types inside search text box water
+and user clicks on plus button 
+and user clicks plus inside the item popup 
+and user clicks on proceed button
+when user clicks or the cart button 
+and user validates that items are correct and the total is correct
+then 
+expected user must be directed to the home menu and order must turn to pending
+
+Test case three: 
+
+Scenario user add to the cart an item then clear it
+Given user is on ring and bring website 
+and user clicks on food category button 
+and user clicks on search button 
+and user types inside search textbox tuna salad
+and user clicks on plus button
+and user clicks on proceed button 
+and user clicks back 
+and user validates the number is correct on the cart logo 
+and user clicks on the carts
+when user clicks on clear 
+and user clicks on okay 
+then 
+expected the order must be cleared
+
+Test case four: 
+
+Scenario user does not clear the cart
+Given user is on ring and bring website 
+and user clicks on food category button 
+and user clicks on search button 
+and user types inside search textbox tuna salad
+and user clicks on plus button
+and user clicks on proceed button 
+and user clicks back 
+and user validates the number is correct on the cart logo 
+and user clicks on the carts
+when user clicks on clear 
+and user clicks on cancel 
+then 
+expected the order must not be cleared
+
+Test case five:
+
+Scenario user ordering a hookah
+given user is on ring and bring website 
+and user clicks on hookah category button 
+and user add hookah 
+when user clicks on order button 
+then 
+expected order must be ordered
+
+test case six:
+
+Scenario user ordering from waiter category
+given user is on ring and bring website
+and user clicks on waiter category button
+then 
+expected cancel must be displayed on the waiter category 
+
+test case seven: 
+Scenario user canceling order a waiter
+given user is on ring and bring website 
+and user clicks on waiter category button 
+then
+expected order must be canceled
+
+Test case eight 
+Scenario user ordering a maintenance order
+given user is on ring and bring website
+and user clicks on maintenance button 
+and user clicks on the first radio button
+when user clicks on order button
+then 
+expected order must be ordered
+
+Test case nine 
+Scenario user canceling a maintenance order
+given user is on ring and bring website 
+when user clicks on maintenance order 
+then 
+expected order must be cancelled
+
+test case ten:
+Scenario test error inside mobile input under valet 
+given user in on ring and bring website 
+and user clicks on valet
+and use enters a ticket number 
+and user enters an invalid phone number
+when user clicks send 
+then 
+expected error must be displayed
+
+bonus test cases:
+test case eleven: 
+Scenario order a valet 
+given user is on ring and bring website 
+and user clicks on valet button
+and user enter a ticket number
+and user enter a valid phone number 
+when user clicks send 
+then 
+expected order must be ordered
+
+test case eleven:
+
+Scenario submit a feedback
+given user is on ring and bring website 
+and user clicks on feedback 
+when user clicks send 
+then 
+expected Feedback must be sent
